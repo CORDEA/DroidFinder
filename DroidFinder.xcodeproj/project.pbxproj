@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D621E11FDBD1DC005D3932 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D621E01FDBD1DC005D3932 /* File.swift */; };
+		46D621E31FDBD1F3005D3932 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D621E21FDBD1F3005D3932 /* FileType.swift */; };
+		5F1036131CD09E5E001143C2 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1036121CD09E5E001143C2 /* FileCell.swift */; };
+		5F5FFCDE1CCF45FB00659610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FFCDD1CCF45FB00659610 /* AppDelegate.swift */; };
+		5F5FFCE01CCF45FB00659610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FFCDF1CCF45FB00659610 /* ViewController.swift */; };
+		5F5FFCE21CCF45FB00659610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5FFCE11CCF45FB00659610 /* Assets.xcassets */; };
+		5F5FFCE51CCF45FB00659610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5FFCE31CCF45FB00659610 /* Main.storyboard */; };
+		5F5FFCF01CCF45FC00659610 /* DroidFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FFCEF1CCF45FC00659610 /* DroidFinderTests.swift */; };
+		5F5FFCFB1CCF45FC00659610 /* DroidFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FFCFA1CCF45FC00659610 /* DroidFinderUITests.swift */; };
+		5FA12ABB1CDC294A004AFEA1 /* FileBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA12ABA1CDC294A004AFEA1 /* FileBrowser.swift */; };
+		5FD4FCC41CD1EA14009B58A9 /* CommandUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4FCC31CD1EA14009B58A9 /* CommandUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F5FFCEC1CCF45FC00659610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5FFCD21CCF45FB00659610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5FFCD91CCF45FB00659610;
+			remoteInfo = DroidFinder;
+		};
+		5F5FFCF71CCF45FC00659610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5FFCD21CCF45FB00659610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5FFCD91CCF45FB00659610;
+			remoteInfo = DroidFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D621E01FDBD1DC005D3932 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		46D621E21FDBD1F3005D3932 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
+		5F1036121CD09E5E001143C2 /* FileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
+		5F5FFCDA1CCF45FB00659610 /* DroidFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5FFCDD1CCF45FB00659610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F5FFCDF1CCF45FB00659610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F5FFCE11CCF45FB00659610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F5FFCE41CCF45FB00659610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F5FFCE61CCF45FB00659610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5FFCEB1CCF45FC00659610 /* DroidFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5FFCEF1CCF45FC00659610 /* DroidFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidFinderTests.swift; sourceTree = "<group>"; };
+		5F5FFCF11CCF45FC00659610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5FFCF61CCF45FC00659610 /* DroidFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5FFCFA1CCF45FC00659610 /* DroidFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidFinderUITests.swift; sourceTree = "<group>"; };
+		5F5FFCFC1CCF45FC00659610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA12ABA1CDC294A004AFEA1 /* FileBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileBrowser.swift; sourceTree = "<group>"; };
+		5FD4FCC31CD1EA14009B58A9 /* CommandUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5FFCD71CCF45FB00659610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5FFCE81CCF45FC00659610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5FFCF31CCF45FC00659610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5FFCD11CCF45FB00659610 = {
+			isa = PBXGroup;
+			children = (
+				5F5FFCDC1CCF45FB00659610 /* DroidFinder */,
+				5F5FFCEE1CCF45FC00659610 /* DroidFinderTests */,
+				5F5FFCF91CCF45FC00659610 /* DroidFinderUITests */,
+				5F5FFCDB1CCF45FB00659610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5FFCDB1CCF45FB00659610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FFCDA1CCF45FB00659610 /* DroidFinder.app */,
+				5F5FFCEB1CCF45FC00659610 /* DroidFinderTests.xctest */,
+				5F5FFCF61CCF45FC00659610 /* DroidFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5FFCDC1CCF45FB00659610 /* DroidFinder */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FFCDD1CCF45FB00659610 /* AppDelegate.swift */,
+				5F5FFCDF1CCF45FB00659610 /* ViewController.swift */,
+				5F5FFCE11CCF45FB00659610 /* Assets.xcassets */,
+				5F5FFCE31CCF45FB00659610 /* Main.storyboard */,
+				5F5FFCE61CCF45FB00659610 /* Info.plist */,
+				5F1036121CD09E5E001143C2 /* FileCell.swift */,
+				5FD4FCC31CD1EA14009B58A9 /* CommandUtils.swift */,
+				5FA12ABA1CDC294A004AFEA1 /* FileBrowser.swift */,
+				46D621E01FDBD1DC005D3932 /* File.swift */,
+				46D621E21FDBD1F3005D3932 /* FileType.swift */,
+			);
+			path = DroidFinder;
+			sourceTree = "<group>";
+		};
+		5F5FFCEE1CCF45FC00659610 /* DroidFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FFCEF1CCF45FC00659610 /* DroidFinderTests.swift */,
+				5F5FFCF11CCF45FC00659610 /* Info.plist */,
+			);
+			path = DroidFinderTests;
+			sourceTree = "<group>";
+		};
+		5F5FFCF91CCF45FC00659610 /* DroidFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FFCFA1CCF45FC00659610 /* DroidFinderUITests.swift */,
+				5F5FFCFC1CCF45FC00659610 /* Info.plist */,
+			);
+			path = DroidFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5FFCD91CCF45FB00659610 /* DroidFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5FFCFF1CCF45FC00659610 /* Build configuration list for PBXNativeTarget "DroidFinder" */;
+			buildPhases = (
+				5F5FFCD61CCF45FB00659610 /* Sources */,
+				5F5FFCD71CCF45FB00659610 /* Frameworks */,
+				5F5FFCD81CCF45FB00659610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroidFinder;
+			productName = DroidFinder;
+			productReference = 5F5FFCDA1CCF45FB00659610 /* DroidFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F5FFCEA1CCF45FC00659610 /* DroidFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5FFD021CCF45FC00659610 /* Build configuration list for PBXNativeTarget "DroidFinderTests" */;
+			buildPhases = (
+				5F5FFCE71CCF45FC00659610 /* Sources */,
+				5F5FFCE81CCF45FC00659610 /* Frameworks */,
+				5F5FFCE91CCF45FC00659610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5FFCED1CCF45FC00659610 /* PBXTargetDependency */,
+			);
+			name = DroidFinderTests;
+			productName = DroidFinderTests;
+			productReference = 5F5FFCEB1CCF45FC00659610 /* DroidFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F5FFCF51CCF45FC00659610 /* DroidFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5FFD051CCF45FC00659610 /* Build configuration list for PBXNativeTarget "DroidFinderUITests" */;
+			buildPhases = (
+				5F5FFCF21CCF45FC00659610 /* Sources */,
+				5F5FFCF31CCF45FC00659610 /* Frameworks */,
+				5F5FFCF41CCF45FC00659610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5FFCF81CCF45FC00659610 /* PBXTargetDependency */,
+			);
+			name = DroidFinderUITests;
+			productName = DroidFinderUITests;
+			productReference = 5F5FFCF61CCF45FC00659610 /* DroidFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5FFCD21CCF45FB00659610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					5F5FFCD91CCF45FB00659610 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0910;
+					};
+					5F5FFCEA1CCF45FC00659610 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0910;
+						TestTargetID = 5F5FFCD91CCF45FB00659610;
+					};
+					5F5FFCF51CCF45FC00659610 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0910;
+						TestTargetID = 5F5FFCD91CCF45FB00659610;
+					};
+				};
+			};
+			buildConfigurationList = 5F5FFCD51CCF45FB00659610 /* Build configuration list for PBXProject "DroidFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F5FFCD11CCF45FB00659610;
+			productRefGroup = 5F5FFCDB1CCF45FB00659610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5FFCD91CCF45FB00659610 /* DroidFinder */,
+				5F5FFCEA1CCF45FC00659610 /* DroidFinderTests */,
+				5F5FFCF51CCF45FC00659610 /* DroidFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5FFCD81CCF45FB00659610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5FFCE21CCF45FB00659610 /* Assets.xcassets in Resources */,
+				5F5FFCE51CCF45FB00659610 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5FFCE91CCF45FC00659610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5FFCF41CCF45FC00659610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5FFCD61CCF45FB00659610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D621E31FDBD1F3005D3932 /* FileType.swift in Sources */,
+				5F1036131CD09E5E001143C2 /* FileCell.swift in Sources */,
+				46D621E11FDBD1DC005D3932 /* File.swift in Sources */,
+				5FD4FCC41CD1EA14009B58A9 /* CommandUtils.swift in Sources */,
+				5F5FFCE01CCF45FB00659610 /* ViewController.swift in Sources */,
+				5F5FFCDE1CCF45FB00659610 /* AppDelegate.swift in Sources */,
+				5FA12ABB1CDC294A004AFEA1 /* FileBrowser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5FFCE71CCF45FC00659610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5FFCF01CCF45FC00659610 /* DroidFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5FFCF21CCF45FC00659610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5FFCFB1CCF45FC00659610 /* DroidFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5FFCED1CCF45FC00659610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5FFCD91CCF45FB00659610 /* DroidFinder */;
+			targetProxy = 5F5FFCEC1CCF45FC00659610 /* PBXContainerItemProxy */;
+		};
+		5F5FFCF81CCF45FC00659610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5FFCD91CCF45FB00659610 /* DroidFinder */;
+			targetProxy = 5F5FFCF71CCF45FC00659610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F5FFCE31CCF45FB00659610 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5FFCE41CCF45FB00659610 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F5FFCFD1CCF45FC00659610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5F5FFCFE1CCF45FC00659610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		5F5FFD001CCF45FC00659610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DroidFinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cordea.DroidFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5F5FFD011CCF45FC00659610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/DroidFinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cordea.DroidFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		5F5FFD031CCF45FC00659610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DroidFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cordea.DroidFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidFinder.app/Contents/MacOS/DroidFinder";
+			};
+			name = Debug;
+		};
+		5F5FFD041CCF45FC00659610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DroidFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cordea.DroidFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroidFinder.app/Contents/MacOS/DroidFinder";
+			};
+			name = Release;
+		};
+		5F5FFD061CCF45FC00659610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DroidFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cordea.DroidFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = DroidFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5F5FFD071CCF45FC00659610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DroidFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cordea.DroidFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = DroidFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5FFCD51CCF45FB00659610 /* Build configuration list for PBXProject "DroidFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5FFCFD1CCF45FC00659610 /* Debug */,
+				5F5FFCFE1CCF45FC00659610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5FFCFF1CCF45FC00659610 /* Build configuration list for PBXNativeTarget "DroidFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5FFD001CCF45FC00659610 /* Debug */,
+				5F5FFD011CCF45FC00659610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5FFD021CCF45FC00659610 /* Build configuration list for PBXNativeTarget "DroidFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5FFD031CCF45FC00659610 /* Debug */,
+				5F5FFD041CCF45FC00659610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5FFD051CCF45FC00659610 /* Build configuration list for PBXNativeTarget "DroidFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5FFD061CCF45FC00659610 /* Debug */,
+				5F5FFD071CCF45FC00659610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5FFCD21CCF45FB00659610 /* Project object */;
+}
